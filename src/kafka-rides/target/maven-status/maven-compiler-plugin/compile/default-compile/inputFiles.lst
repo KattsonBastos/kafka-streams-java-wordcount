@@ -1,0 +1,3 @@
+/workspace/kafka-streams-java-wordcount/src/kafka-rides/src/main/java/com/kafka/rides/RidesDataGenerator.java
+/workspace/kafka-streams-java-wordcount/src/kafka-rides/src/main/java/com/kafka/rides/RideDataProducer.java
+/workspace/kafka-streams-java-wordcount/src/kafka-rides/src/main/java/com/kafka/rides/RideStreamProcessor.java

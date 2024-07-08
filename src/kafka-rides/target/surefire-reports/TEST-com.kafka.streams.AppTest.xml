@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.kafka.streams.AppTest" time="0.029" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/workspace/kafka-streams-java-wordcount/src/kafka-rides/target/test-classes:/workspace/kafka-streams-java-wordcount/src/kafka-rides/target/classes:/workspace/m2-repository/org/apache/kafka/kafka-streams/3.1.0/kafka-streams-3.1.0.jar:/workspace/m2-repository/org/rocksdb/rocksdbjni/6.22.1.1/rocksdbjni-6.22.1.1.jar:/workspace/m2-repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar:/workspace/m2-repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar:/workspace/m2-repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar:/workspace/m2-repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar:/workspace/m2-repository/junit/junit/4.12/junit-4.12.jar:/workspace/m2-repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/workspace/m2-repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/workspace/m2-repository/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar:/workspace/m2-repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/workspace/m2-repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/workspace/m2-repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/workspace/m2-repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/workspace/m2-repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/workspace/m2-repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/workspace/m2-repository/com/opencsv/opencsv/5.5.2/opencsv-5.5.2.jar:/workspace/m2-repository/org/apache/commons/commons-text/1.9/commons-text-1.9.jar:/workspace/m2-repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/workspace/m2-repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/workspace/m2-repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/workspace/m2-repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/workspace/m2-repository/org/apache/kafka/kafka-clients/3.1.0/kafka-clients-3.1.0.jar:/workspace/m2-repository/com/github/luben/zstd-jni/1.5.0-4/zstd-jni-1.5.0-4.jar:/workspace/m2-repository/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar:/workspace/m2-repository/org/xerial/snappy/snappy-java/1.1.8.4/snappy-java-1.1.8.4.jar:"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/home/gitpod/.sdkman/candidates/java/11.0.23.fx-zulu/lib"/>
+    <property name="sun.java.command" value="/workspace/kafka-streams-java-wordcount/src/kafka-rides/target/surefire/surefirebooter-20240703135633365_3.jar /workspace/kafka-streams-java-wordcount/src/kafka-rides/target/surefire 2024-07-03T13-56-33_271-jvmRun1 surefire-20240703135633365_1tmp surefire_0-20240703135633365_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/workspace/kafka-streams-java-wordcount/src/kafka-rides/target/test-classes:/workspace/kafka-streams-java-wordcount/src/kafka-rides/target/classes:/workspace/m2-repository/org/apache/kafka/kafka-streams/3.1.0/kafka-streams-3.1.0.jar:/workspace/m2-repository/org/rocksdb/rocksdbjni/6.22.1.1/rocksdbjni-6.22.1.1.jar:/workspace/m2-repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar:/workspace/m2-repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar:/workspace/m2-repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar:/workspace/m2-repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar:/workspace/m2-repository/junit/junit/4.12/junit-4.12.jar:/workspace/m2-repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/workspace/m2-repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/workspace/m2-repository/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar:/workspace/m2-repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/workspace/m2-repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/workspace/m2-repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/workspace/m2-repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/workspace/m2-repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/workspace/m2-repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/workspace/m2-repository/com/opencsv/opencsv/5.5.2/opencsv-5.5.2.jar:/workspace/m2-repository/org/apache/commons/commons-text/1.9/commons-text-1.9.jar:/workspace/m2-repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/workspace/m2-repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/workspace/m2-repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/workspace/m2-repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/workspace/m2-repository/org/apache/kafka/kafka-clients/3.1.0/kafka-clients-3.1.0.jar:/workspace/m2-repository/com/github/luben/zstd-jni/1.5.0-4/zstd-jni-1.5.0-4.jar:/workspace/m2-repository/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar:/workspace/m2-repository/org/xerial/snappy/snappy-java/1.1.8.4/snappy-java-1.1.8.4.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/gitpod"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="/home/gitpod/.sdkman/candidates/java/11.0.23.fx-zulu"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/workspace/kafka-streams-java-wordcount/src/kafka-rides"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.vendor.version" value="Zulu11.72+19-CA"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/workspace/kafka-streams-java-wordcount/src/kafka-rides/target/surefire/surefirebooter-20240703135633365_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.23+9-LTS"/>
+    <property name="user.name" value="gitpod"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.1.91-060191-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu11.72+19-CA"/>
+    <property name="localRepository" value="/workspace/m2-repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.23"/>
+    <property name="user.dir" value="/workspace/kafka-streams-java-wordcount/src/kafka-rides"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="11.0.23+9-LTS"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testApp" classname="com.kafka.streams.AppTest" time="0.002"/>
+</testsuite>

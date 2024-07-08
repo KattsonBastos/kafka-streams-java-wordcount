@@ -1,0 +1,3 @@
+com/kafka/rides/RideStreamProcessor.class
+com/kafka/rides/RideDataProducer.class
+com/kafka/rides/RidesDataGenerator.class
